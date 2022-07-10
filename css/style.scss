@@ -1,0 +1,190 @@
+body {
+    font-family: 'Tenor Sans', sans-serif;
+
+}
+
+body p {
+    color: #999999;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.horizontal-line {
+    width: 1185px;
+    border: 1px solid black;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+background: black;
+
+    a {
+        margin-left: 40px;
+        text-decoration: none;
+        color: white;
+    }
+    h1{
+        color: white;
+    }
+}
+
+
+
+a:hover{
+    font-size: 25px;
+    transition: 0.5s ease;
+    color: aqua;
+}
+
+.about {
+    display: flex;
+    margin-top: 60px;
+
+    &__text {
+        margin-left: 50px;
+        width: 430px;
+
+        h2 {
+            font-size: 36px;
+            line-height: 42px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-top: 30px;
+            font-size: 15px;
+        }
+
+        p {
+            color: #999999;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////
+.main {
+    display: flex;
+    margin-top: 60px;
+
+
+}
+
+.main__collumn {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main__text {
+    width: 400px;
+
+    p {
+        text-transform: uppercase;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}
+
+///////////////////////////////////////////////////////////////////////
+
+
+.post {
+    display: flex;
+    margin-top: 60px;
+
+}
+
+.post__collumn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+}
+
+.post__text {
+    width: 400px;
+    text-align: center;
+
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid black;
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    color: black;
+    background: white;
+}
+
+.btn:hover {
+    color: aqua;
+    transition: 0.5s ease;
+    background: black;
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+
+.footer__about{
+    background: #141414;  
+}
+
+.footer {
+    margin-top: 90px;
+    
+}
+
+
+
+.footer__title {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 45px;
+    margin-left: 30px;
+    h3 {
+        color: white;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    p {
+        margin-left: 30px;
+        font-size: 15px;
+    }
+
+}
+
+.footer__line {
+    width: 1185px;
+    border: 1px solid white;
+}
